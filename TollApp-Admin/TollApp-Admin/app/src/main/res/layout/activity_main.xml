@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#80deea"
+    android:id="@+id/linearLayout"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Welcome to EasyToll"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#673AB7"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toll Login"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:textColor="#000000"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/Email_ID"
+            android:inputType="textEmailAddress"
+            android:hint="Email Id"
+            android:background="@android:drawable/editbox_background"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/Password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@android:drawable/editbox_background"/>
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot password"
+        android:id="@+id/forgotPass"
+        android:textColor="#ff5722"
+        android:layout_gravity="right"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/Button_Login"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        android:background="#ff5722"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/error_verify"
+        />
+
+    <TextView
+        android:id="@+id/Textview_Create_Account"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:text="Dont have an account?Create one"
+        android:textColor="#424242"
+        android:textColorLink="#9C27B0" />
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="209dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/toll">
+
+    </LinearLayout>
+
+
+</LinearLayout>
