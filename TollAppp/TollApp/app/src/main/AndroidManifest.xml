@@ -30,7 +30,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyChwZocZk9mgHSjBywqlKt1FoBp-x0dgEM" />
+            android:value="" /> 
 
         <activity android:name=".UserRegistration" />
         <activity android:name=".AfterLoginActivity" />
