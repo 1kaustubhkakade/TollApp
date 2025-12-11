@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+
+    tools:context="com.example.rohan.tollapp.PaymentActivity1">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/axisid"
+        android:background="@drawable/axis"
+
+
+        />
+
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"></android.support.design.widget.CoordinatorLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/axisid"
+        android:background="@drawable/hdfc"
+        android:id="@+id/hdfcid"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/axisid"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/icici"
+        android:id="@+id/iciciid"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/axisid"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/kotak"
+        android:layout_toRightOf="@+id/iciciid"
+
+        android:id="@+id/kotakid"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/iciciid"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/sbi"
+        android:id="@+id/sbiid"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/kotakid"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/hsbc"
+        android:layout_toRightOf="@+id/sbiid"
+
+        android:id="@+id/hsbcid"
+        />
+
+
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="200dp"
+        android:text="Next"
+        android:id="@+id/nxtbtnid"
+
+        android:textColor="#3E2723"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        />
+
+</RelativeLayout>
+    <!--android:background="#90CAF9"-->

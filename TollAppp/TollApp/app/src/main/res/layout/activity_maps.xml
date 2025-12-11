@@ -1,0 +1,72 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rohan.tollapp.MapsActivity"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"
+    android:background="@mipmap/bg1"
+    android:paddingRight="5dp"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etOrigin"
+        android:hint="Source"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/etOrigin"
+        android:layout_marginLeft="10dp"
+        android:hint="Destination"
+
+        android:id="@+id/etDestination"
+        android:maxLines="1"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etOrigin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:text="Find path"
+        android:layout_gravity="center"
+        android:id="@+id/btnFindPath"
+        android:textAllCaps="false"/>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_below="@id/btnFindPath"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="550dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/btnCalculate"
+        android:onClick="Calc"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tolls_selected"/>
+
+</LinearLayout>
