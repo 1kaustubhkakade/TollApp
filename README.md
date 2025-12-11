@@ -144,15 +144,3 @@ TollApp provides a fast, reliable, and digital way of paying tolls, reducing con
 * TutorialsPoint
 * Android Black Book – Pradeep Kothari
 
----
-
-If you'd like, I can also:
-
-✅ Format this into a **stylized README with badges**
-✅ Add **installation steps**
-✅ Provide **screenshots section placeholders**
-✅ Add **GitHub-friendly markdown tables**
-✅ Convert it into a **README with emojis vs. without emojis**
-
-Just tell me your preference!
-
